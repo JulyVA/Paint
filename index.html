@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="pincel.ico">
+</head>
+<body>
+    <div class="general">
+        <div class="opciones">
+            <input type="color" id="color" value="#ffffff">
+            <input type="range" min="1" max="20" id="ancho" value="10">
+            <div class="borrar">
+                <img src="tacho.PNG" alt="borrar" title="borrar">
+            </div>
+        </div>
+        <canvas id="canvas" width="500px" height="500px"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
